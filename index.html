@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Senai - Blog Next.js</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f5f5f5; }
+    .container { max-width: 800px; margin: 40px auto; background: #fff; padding: 24px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+    h1 { color: #000; text-align: center; }
+    .posts { margin-top: 24px; display: grid; gap: 16px; }
+    .post { border: 1px solid #ddd; border-radius: 8px; padding: 16px; }
+    .post h2 { margin-top: 0; color: #333; }
+    .post p { color: #666; font-size: 0.95rem; }
+    .post small { color: #999; font-size: 0.85rem; }
+    nav { text-align: center; margin-bottom: 24px; }
+    nav a { margin: 0 12px; color: #000; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Blog Next.js</h1>
+    <nav>
+      <a href="/">Início</a>
+      <a href="/sobre">Sobre</a>
+      <a href="/contato">Contato</a>
+    </nav>
+    <div class="posts">
+      <div class="post">
+        <h2>Bem-vindo ao nosso blog</h2>
+        <small>25/11/2026 • Next.js</small>
+        <p>Este é um blog desenvolvido com Next.js, utilizando App Router e renderização no servidor.</p>
+      </div>
+      <div class="post">
+        <h2>Por que usar Next.js?</h2>
+        <small>24/11/2026 • Next.js</small>
+        <p>Next.js oferece SSR, SSG, rotas baseadas em arquivos e otimização de desempenho.</p>
+      </div>
+      <div class="post">
+        <h2>Dicas de Front-end</h2>
+        <small>23/11/2026 • Front-end</small>
+        <p>Boas práticas para construir interfaces modernas e responsivas.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
